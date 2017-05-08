@@ -1,0 +1,23 @@
+{
+    "name": "daylerees/json-rpc-foundation",
+    "description": "JSON RPC implementation on top of the Symfony HTTP Foundation.",
+    "type": "library",
+    "require": {
+        "symfony/http-foundation": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rees\\JsonRpc\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dayle Rees",
+            "email": "me@daylerees.com"
+        }
+    ]
+}
